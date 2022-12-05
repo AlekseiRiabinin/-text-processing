@@ -15,3 +15,6 @@ Digital Agencies / Marketing / PR / SEO, Ads Platforms, Internet Services, Onlin
 - Numpy
 - Matplotlib
 - Seaborn
+
+## 4. Results
+Due to the PyTorch model having pretrained weights, the filter on toxic words works well. Nevertheless, it has to be run on GPU, so the f1-score on CPU is average (0.48). Better score demonstrates a model built in Sklearn using TF-IDF method (f1=0.78). Additionally, this approach provides various ways to adjust the model parameters and get to the appropriate outcome on CPU relatively fast.
